@@ -18,8 +18,10 @@ const popularities = ['Croissante', 'Décroissante'];
       v-model="searchQuery"
       label="Rechercher un projet..."
       variant="outlined"
-      density="comfortable"
+      density="compact"
       class="w-full md:w-1/3"
+      bg-color="white"
+      append-inner-icon="mdi-magnify"
     />
     
     <v-select
@@ -27,8 +29,9 @@ const popularities = ['Croissante', 'Décroissante'];
       :items="categories"
       label="Catégorie"
       variant="outlined"
-      density="comfortable"
+      density="compact"
       class="w-full md:w-1/6"
+      bg-color="white"
     />
 
     <v-select
@@ -36,8 +39,9 @@ const popularities = ['Croissante', 'Décroissante'];
       :items="budgets"
       label="Budget"
       variant="outlined"
-      density="comfortable"
+      density="compact"
       class="w-full md:w-1/6"
+      bg-color="white"
     />
 
     <v-select
@@ -45,8 +49,9 @@ const popularities = ['Croissante', 'Décroissante'];
       :items="popularities"
       label="Popularité"
       variant="outlined"
-      density="comfortable"
+      density="compact"
       class="w-full md:w-1/6"
+      bg-color="white"
     />
   </div>
   </main>

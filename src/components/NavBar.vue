@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between w-full py-[21px] px-10 fixed bg-white border">
+    <div class="flex justify-between w-full py-[21px] px-32 fixed bg-white z-50">
       <v-toolbar-title>
         <RouterLink to="/" class="text-blue-600 text-xl font-bold">
           <v-icon color="primary">mdi-handshake</v-icon>
