@@ -3,6 +3,7 @@ import HomeView from '../views/public/HomeView.vue'
 import ProjectsView from '../views/public/ProjectsView.vue'
 import LoginView from '../views/public/LoginView.vue'
 import RegisterView from '../views/public/RegisterView.vue'
+import '../assets/main.css'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
