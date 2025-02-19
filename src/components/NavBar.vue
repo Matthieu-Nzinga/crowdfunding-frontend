@@ -10,8 +10,8 @@
       <div class="flex gap-5 items-center text-lg">
         <RouterLink to="/" class="hover:underline">Accueil</RouterLink>
         <RouterLink to="/projects" class="hover:underline">Projets</RouterLink>
-        <v-btn to="/login" color="primary" variant="outlined">Connexion</v-btn>
-        <v-btn color="primary" variant="flat" to="/register">Inscription</v-btn>
+        <v-btn to="/login" color="primary" variant="outlined" style="text-transform: none">Connexion</v-btn>
+        <v-btn color="primary" variant="flat" to="/register" style="text-transform: none">Inscription</v-btn>
       </div>
     </div>
 </template>
