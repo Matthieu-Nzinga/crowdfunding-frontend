@@ -13,7 +13,7 @@ const popularities = ['Croissante', 'Décroissante'];
 
 <template>
   <main class="bg-[#E5E7EB]">
-    <div class="flex flex-col md:flex-row items-center gap-4 pt-6 px-32 rounded-lg">
+    <div class="flex flex-col md:flex-row items-center md:gap-4 p-5 pb-0 md:px-32 rounded-lg">
     <v-text-field
       v-model="searchQuery"
       label="Rechercher un projet..."

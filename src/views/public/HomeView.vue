@@ -12,11 +12,11 @@ onMounted(() => {
 
 <template>
   <div class="">
-    <div class="absolute bg-black w-full h-[500px] opacity-55"></div>
-    <img src="/images/img.jpg" alt="Logo du site" class="w-full h-[500px]">
+    <div class="absolute bg-black w-full h-[300px] md:h-[550px] opacity-55"></div>
+    <img src="/images/img.jpg" alt="Logo du site" class="w-full h-[300px] md:h-[550px] md:object-cover">
   </div>
   <SearchBar />
-  <div class="py-12 px-32">
+  <div class="p-6 md:py-12 md:px-32">
     <h2 class="text-2xl font-bold mb-6">Projets à financer</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
